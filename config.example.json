@@ -1,0 +1,99 @@
+{
+  "hotkey": "<ctrl>+<alt>+a",
+  "dataset_dir": "datasets",
+  "continuous_capture": false,
+  "magnifier_zoom": 3.0,
+  "crosshair_color": [
+    230,
+    235,
+    240
+  ],
+  "box_color": [
+    50,
+    220,
+    110
+  ],
+  "magic_wand_tolerance": 20,
+  "model_path": "models/detect/YOLO11n.pt",
+  "model_paths": {
+    "detect": "models/detect/YOLO11n.pt",
+    "pose": "models/pose/yolo11n-pose.pt",
+    "segment": "models/segment/yolo11n-seg.pt"
+  },
+  "max_models": 5,
+  "model_dir": "models",
+  "perspective_source_points": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "perspective_target_points": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "last_task": "detect",
+  "classes": [
+    "object"
+  ],
+  "shortcuts": {
+    "save": "Ctrl+S",
+    "toggle_task": "Ctrl+T",
+    "prelabel": "Ctrl+P",
+    "cancel": "Esc",
+    "previous_image": "A",
+    "next_image": "D",
+    "magic_wand": "M",
+    "brush": "B",
+    "eraser": "E",
+    "undo": "Ctrl+Z",
+    "redo": "Ctrl+Y",
+    "delete": "Delete",
+    "confirm_box": "Return",
+    "clear_point": "Backspace",
+    "camera_capture": "Space",
+    "move_left": "Left",
+    "move_left_fast": "Shift+Left",
+    "move_right": "Right",
+    "move_right_fast": "Shift+Right",
+    "move_up": "Up",
+    "move_up_fast": "Shift+Up",
+    "move_down": "Down",
+    "move_down_fast": "Shift+Down",
+    "class_1": "1",
+    "class_2": "2",
+    "class_3": "3",
+    "class_4": "4",
+    "class_5": "5",
+    "class_6": "6",
+    "class_7": "7",
+    "class_8": "8",
+    "class_9": "9"
+  }
+}
